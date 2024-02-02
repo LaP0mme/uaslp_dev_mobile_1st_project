@@ -14,18 +14,10 @@ class _HomeState extends State<Home> {
     return const Scaffold(
         body: Stack(
       children: [
-        Text("Ptiripou"),
-
-        Text("Hasoul",
-            style: TextStyle(
-                color: Colors.red,
-                fontSize: 20,
-                fontWeight: FontWeight.bold,
-                fontStyle: FontStyle.italic,
-                decoration: TextDecoration.underline,
-                decorationColor: Colors.blue,
-                decorationThickness: 2,
-                decorationStyle: TextDecorationStyle.dashed)),
+        Center(
+          child: Text('Welcome to the Home Page',
+              style: TextStyle(fontSize: 25, color: Colors.red)),
+        )
       ],
     ));
   }
